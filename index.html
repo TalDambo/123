@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>Avengers</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<section class="avengers">
+<div class="top-bar">
+<img src="logo.png">
+<div class="top-button">
+<a href="#" class="login-btn">Login</a>
+<a href="#" class="login-btn">Join Us</a>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+    <h1>Avengers</h1>
+    <p>Protectors Of The Universe</p>
+    <button type="button" class="start-btn">
+        Call Us
+    </button>
+</div>
+<div class="col-md-6">
+    <div class="home-img">
+        <img src="Avengers.png"
+    </div>
+    
+</div>
+</div>
+</div>
+</section>
+<section class="heros text-center">
+    <h1>Meet Our Heros</h1>
+    <div class="container">
+    <div class="row">
+    <div class="col-md-4">
+        <div class="person-img" onmouseover="showText1(document.getElementById('MovieTitle1').innerHTML)" onmouseout="hideText1()">
+            <img src="captain-america.jpg">
+            <div id="hoverText1"></div>
+        </div>
+        <div class="person-details">
+            <h4 id="MovieTitle1">Captain America</h4>
+            <p>The Super-Soldier</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="person-img" onmouseover="showText2(document.getElementById('MovieTitle2').innerHTML)" onmouseout="hideText2()">
+            <img src="Thor.jpg">
+            <div id="hoverText2"></div>
+        </div>
+        <div class="person-details">
+            <h4 id="MovieTitle2">Thor</h4>
+            <p>The God Of Lightning</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="person-img" onmouseover="showText3(document.getElementById('MovieTitle3').innerHTML)" onmouseout="hideText3()">
+            <img src="iron-man.jpg">
+            <div id="hoverText3"></div>
+        </div>
+        <div class="person-details">
+            <h4 id="MovieTitle3">Iron Man</h4>
+            <p>The Man Of Steel</p>
+        </div>
+    </div>
+    </div>
+    </div>
+</section>
+<section class="profile">
+    <div class="container">
+    <div class="profile-card">
+    <div class="row">
+    <div class="col-md-6">
+    <div class="profile-details text-center">
+    <h2>Do You Have a Superpower?</h2>
+    <h5>Join Us,</h5>
+    <p>We are always in a search for the ones who can help!</p>
+    <button type="button" class="join-btn">Join Us</button>
+    </div>
+    </div>
+    <div class="col-md-6">
+        <div class="join-img">
+             <img src="ave.png">
+        </div>
+    </div>        
+    </div>
+    </div>
+    </div>
+</section>
+<section class="footer text-center">
+    <div class="footer-menu">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Join us</a>
+    <a href="#">Contact</a>
+    </div>
+</section>
+<script src="scripts.js"></script>
+</body>
+</html>

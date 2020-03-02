@@ -1,0 +1,177 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.avengers
+{
+    background-image: linear-gradient(#c847f1,#380231);
+}
+.top-bar
+{
+    padding: 20px;
+}
+.top-bar img
+{
+    width: 130px;
+}
+.top-button
+{
+    float: right;
+}
+.top-button a
+{
+    margin: 0 8px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    background: #fff;
+    color: #333;
+    text-decoration: none !important;
+    border: 2px solid #fff;
+}
+.login-btn
+{
+    background: transparent !important;
+    color: #fff !important;
+}
+.top-button a:hover
+{
+    background: #fff !important;
+    color: #333 !important;    
+}
+.avengers h1
+{
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 12%;
+    letter-spacing: 3px;
+}
+.avengers p
+{
+    color: #fff;
+}
+.avengers .container
+{
+    margin-top: 6%;
+}
+.start-btn
+{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    width: 140px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+.home-img img
+{
+    width: 100%;
+    min-width: 350px;
+    margin-top: 10%;
+}
+.heros
+{
+    padding: 30px 0;
+    background: #efefef;
+}
+.heros .container
+{
+    margin-bottom: -200px !important;
+}
+.heros h1
+{
+    margin: 60px 0;
+    color: #555;
+}
+.person-img
+{
+    height: 400px;
+    width: 100%;
+}
+
+.person-img img
+{
+    width:80%;
+    height: 100%;
+}
+.person-details
+{
+    background: #fff;
+    padding: 10px 0 1px;
+    margin-bottom: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.profile
+{
+    padding: 30px 0;
+    background-image: linear-gradient(#c847f1,#380231);
+}
+.profile-card
+{
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 2px 40px 0 rgba(17, 39, 125, 0.18);
+    margin-bottom: -200px !important;
+    margin-top: 370px;
+}
+.profile-details
+{
+    padding: 40px;
+}
+.profile-details h2
+{
+    color: #c200ff;
+    margin-bottom: 35px;
+}
+.profile-details h5,p
+{
+    color: #555;
+}
+.join-btn
+{
+    background: #c200ff;
+    border: none;
+    color: #fff;
+    width: 130px;
+    height: 40px;
+    margin-top: 54px;
+    margin-bottom: 14px;
+    border-radius: 50px;
+}
+.join-img
+{
+    text-align: center;
+}
+.join-img img
+{
+    width: 57%;
+    min-width: 350px;
+}
+.footer-menu
+{
+    padding: 50px 0 20px;
+    background-image: linear-gradient(#c847f1,#380231);
+    margin-top: 200px;
+}
+.footer-menu a
+{
+    display: inline-block;
+    width: 120px;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.person-img:hover {
+    cursor: pointer;
+}
+.person-img div {
+    color:#fff;
+    font-size: 30px;
+    margin-top: -60%;
+    text-align: center;
+}
